@@ -1,0 +1,14 @@
+.product-quantity {
+  display: flex;
+}
+.product-quantity p {
+  margin: 0.5rem;
+}
+.actions {
+  max-width: 800px;
+  min-width: 800px;
+
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+}

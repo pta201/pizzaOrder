@@ -1,0 +1,11 @@
+.menu ul {
+  list-style-type: none;
+  display: flex;
+}
+.menu ul li {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}

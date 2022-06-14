@@ -1,0 +1,29 @@
+.cart-footer {
+  background-color: #ddd;
+}
+.order-detail {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 1rem;
+}
+.order-detail div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-detail p {
+  color: deeppink;
+}
+.order-actions button {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+
+  width: 100%;
+
+  transition: all 0.25s ease-in-out;
+}
+.order-actions button:hover {
+  background-color: rgb(18, 122, 49);
+  color: rgb(232, 249, 253);
+}
